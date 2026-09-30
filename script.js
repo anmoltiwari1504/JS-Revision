@@ -85,3 +85,175 @@
 
 // console.log(carDetails.price)
 
+
+//-------------------------------------------------operators-------------------------------------------------
+
+// operation - It is a task or a procedure for a specific program which uses some operators to perform operation
+//operands -  are value or term on which apply operation
+//operator - are symbols to perform operation between two or more operands.
+
+//1.Arthmatic operators
+//2.Assignment operators
+//3.Comparison operators
+//4.Logical operators
+//5.Ternary operators
+
+// 1.Arithmatic operators  ---> + ,- , * ,/, %, **
+
+// let num1 = 20
+// let num2 = 30
+// document.write(num1 + num2);
+
+// let num1 = 30
+// let num2 = 20
+// document.write(num1 - num2)
+
+// let num1 = 20;
+// let num2 = 2;
+// document.write(num1 * num2)
+
+
+// let num1 = 20;
+// let num2 = 2;
+// document.write(num1 / num2)
+
+// let num1 = 20;
+// let num2 = 2;
+// document.write(num1 % num2)
+
+// let num1 = 20;
+// let num2 = 2;
+// document.write(num1 ** num2)
+
+
+//2.Assignment operator ----> =,+= , -= , *= , /= , %= , **=
+
+// let num1 = 20;
+// let num2 = num1;
+// console.log(num2)
+
+// let num1 = 20
+// let num2 = 30;
+// num1 += num2;
+// console.log(num1)
+// console.log(num2)
+
+// let num1 = 20
+// let num2 = 30;
+// num1 -= num2;
+// console.log(num1)
+// console.log(num2)
+
+
+// let num1 = 20
+// let num2 = 30;
+// num1  *= num2;
+// console.log(num1)
+// console.log(num2)
+
+// let num1 = 20
+// let num2 = 30;
+// num1 /= num2;
+// console.log(num1)
+// console.log(num2)
+
+// let num1 = 20
+// let num2 = 30;
+// num1 %= num2;
+// console.log(num1)
+// console.log(num2)
+
+// let num1 = 20
+// let num2 = 30;
+// num1 **= num2;
+// console.log(num1)
+// console.log(num2)
+
+//3.Comparison operator - == , === ,> , < , >= , <=
+
+  // let num1 = 20;
+  // let num2 = 30;
+// console.log(num1 == num2)
+// console.log(num1 === num2)
+// console.log(num1 > num2)
+// console.log(num1 < num2)
+// console.log(num1 >= num2)
+// console.log(num1 <= num2)
+
+
+//4.Logical operator - && , || , !
+
+// let num1 = 20;
+// let num2 = 23;
+// let num3 = 23;
+
+// console.log(num1 < num2 && num1 === num2);
+// console.log(num1 < num2 ||   num1 === num2);
+
+//5. Ternary operator
+
+// let age = 20;
+// let result = age >= 18 ? "ADULT" :"TEENAGER"
+// console.log(result)
+
+
+// Control Flow Statement
+
+//loop => Loop in javascript is used to repeat a piece of code multiple times until a condition become false.
+
+
+//types of loops
+
+//while
+//do-while
+//for
+//for of loop
+//for in loop
+
+//1.for loop - when you know how many times you want to repeat.
+
+// let number = 100;
+// for (let i = 1; i < number; i++){
+//   console.log(i)
+// }
+
+//2. While loop - while loop is run when the condition is true.
+
+// let number = 5;
+// while (number <= 5) {
+//   console.log("Hello this is while loop")
+//   number++
+// }
+
+// do-while loop - Runs at once, even if the condition is false.
+
+// let number = 1;
+// do {
+//   console.log(number)
+//   number++;
+  
+// }
+
+// while (number <= 5)
+
+
+//for of loop - use mainy to get value from an array/string.
+
+// let fruits = ["Mango", "Banana", "Apple"];
+// for (let fruit of fruits) {
+//   console.log(fruit)
+// }
+
+
+// for in loop - used mainly for keys/properties of an object.
+
+// let student = {
+//   name: "Anmol",
+//   age: 20,
+//   course: "BTech",
+  
+// };
+
+// for (let key in student) {
+//   console.log(student[key])
+// }
