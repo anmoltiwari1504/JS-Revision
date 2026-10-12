@@ -551,3 +551,47 @@
 //   return pre + curr
 // })
 // console.log(single_value);
+
+
+// ------------------------Function -------------------------
+
+// the bunch or the collection of code that will perform some operation or task at a specific time.
+// it is reusable component in js
+// executing a function two step 1. declaring a function 2.calling a function
+
+//classification of function is according to me is -
+// 1. Standard function
+//2. parametric function
+//3. function with return value
+
+
+// Standard function
+
+// function add() {
+//   let a = 20;
+//   let b = 30;
+//   let sum = a + b;
+//   console.log(sum)
+// }
+
+// add()
+
+
+// Parametric function
+
+// function add(a, b) {
+//   let sum = a + b;
+//   console.log(sum);
+// };
+// add(2,3)
+
+
+
+
+// function with return value
+
+
+function add(a, b) {
+  return a + b;
+};
+console.log(add(55,676))
